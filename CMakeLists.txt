@@ -1,7 +1,7 @@
-cmake_minimum_required(VERSION 4.0)
-project(sklad)
+cmake_minimum_required(VERSION 3.10)
+project(sklad C)
 
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_C_STANDARD 11)
 
-add_executable(sklad
+add_executable(sklad main.c
         main.c)
